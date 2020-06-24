@@ -1,4 +1,14 @@
 <!DOCTYPE html>
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<link href="scroll.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="scroll.js"></script>
+<link rel="stylesheet" href="resume_preview.css">
+
+
 <html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" charset = "utf-8">
@@ -16,17 +26,19 @@
         <p>Android | Kotlin | Jenkins | Agile | Appium</p>
     </div>
     <ul class="social-icons">
-        <li><a href="https://github.com/kiranpande1987"><img src="github_icon.svg"/></a></li>
-        <li><a href="mailto:kiranpande1987@gmail.com"><img src="mailto_icon.svg"/></a></li>
-        <li><a href="https://medium.com/@kiran.pande"><img src="medium_icon.svg"/></a></li>
         <li><a href="http://www.linkedin.com/in/kiranpande1987"><img src="linkedin_icon.svg"/></a></li>
+        <li><a href="https://github.com/kiranpande1987"><img src="github_icon.svg"/></a></li>
+        <li><a href="#"><img src="resume_icon.svg" id="resume_preview"/></a></li>
+        <li><a href="https://medium.com/@kiran.pande"><img src="medium_icon.svg"/></a></li>
+        <li><a href="mailto:kiranpande1987@gmail.com"><img src="mailto_icon.svg"/></a></li>
     </ul>
+    <a class="ct-btn-scroll ct-js-btn-scroll animated" href="#scrollDown"></a>
 </div>
 
 <!-- div>
     <img class="profile-pic" src="profile_pic.jpg" align="right">
 </div -->
-<div class="timeline">
+<div class="timeline" id="scrollDown">
     <section id="timeline">
         <article>
             <div class="inner">
@@ -116,6 +128,16 @@
         </article>
     </section>
 </div>
+
+
+<div id="myModal" class="modal">
+<span class="close">&times;</span>
+    <img class="modal-content" id="img01" src="resume_pic_1.jpg">
+    <br>
+    <img class="modal-content" id="img02" src="resume_pic_2.jpg">
+    <div id="caption"></div>
+</div>
+<script src="resume_preview.js"></script>
 
 </body>
 </html>
