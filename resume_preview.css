@@ -65,7 +65,7 @@
     transition: 0.3s;
     width: 30px;
     height: 30px;
-    position: absolute;
+    position: center;
 }
 
 .close_modal {
@@ -73,7 +73,7 @@
     transition: 0.3s;
     width: 30px;
     height: 30px;
-    position: absolute;
+    position: center;
 }
 
 /* 100% Image Width on Smaller Screens */
