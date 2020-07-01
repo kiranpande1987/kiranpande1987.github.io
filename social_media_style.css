@@ -4,6 +4,8 @@
     bottom: 1%;
     left: 1%;
     right: 1%;
+    padding: 0;
+    margin: 0 auto;
 }
 .social-icons li {
     display:inline-block;
