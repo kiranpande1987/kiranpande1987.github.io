@@ -1,9 +1,9 @@
 .social-icons {
     text-align: center;
     position: absolute;
-    bottom: 5%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    bottom: 1%;
+    left: 1%;
+    right: 1%;
 }
 .social-icons li {
     display:inline-block;
@@ -15,7 +15,9 @@
     border-bottom: none;
 }
 .social-icons li img {
-    height:45px;
-    margin-right: 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
     border-radius: 5px;
+    width: 40px;
+    height: auto;
 }
